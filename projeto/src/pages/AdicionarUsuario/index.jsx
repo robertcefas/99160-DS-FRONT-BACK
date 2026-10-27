@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import './style.css';
 
 function AdicionarUsuario() {
     const [nome, setNome] = useState('');
