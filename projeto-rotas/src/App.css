@@ -1,0 +1,86 @@
+.app-shell {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.app-content {
+  display: flex;
+  flex: 1;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 56px 24px 72px;
+}
+
+.page {
+  width: min(1120px, 100%);
+  min-height: 360px;
+  padding: clamp(32px, 6vw, 72px);
+  border: 1px solid rgb(226 232 240 / 75%);
+  border-radius: 18px;
+  background: var(--surface);
+  box-shadow: var(--shadow);
+}
+
+.page h1 {
+  max-width: 760px;
+  margin: 0 0 20px;
+  color: var(--navy);
+  font-size: clamp(2.2rem, 5vw, 3.75rem);
+  font-weight: 650;
+  letter-spacing: -0.045em;
+  line-height: 1.08;
+}
+
+.page h1::after {
+  display: block;
+  width: 56px;
+  height: 4px;
+  margin-top: 24px;
+  border-radius: 4px;
+  background: var(--orange);
+  content: "";
+}
+
+.page p {
+  max-width: 680px;
+  margin: 0;
+  color: var(--muted);
+  font-size: clamp(1.05rem, 2vw, 1.2rem);
+  line-height: 1.8;
+}
+
+.page-home {
+  display: flex;
+  min-height: 420px;
+  flex-direction: column;
+  justify-content: center;
+  border-left: 5px solid var(--orange);
+  background:
+    radial-gradient(ellipse at 100% 0%, rgb(23 54 95 / 8%), transparent 42%),
+    var(--surface);
+}
+
+.page-home h1 {
+  max-width: 680px;
+}
+
+.page-about,
+.page-contact {
+  min-height: 320px;
+}
+
+@media (max-width: 640px) {
+  .app-content {
+    padding: 28px 16px 40px;
+  }
+
+  .page {
+    min-height: 320px;
+    border-radius: 14px;
+  }
+
+  .page-home {
+    min-height: 380px;
+  }
+}

@@ -1,0 +1,22 @@
+footer {
+  display: flex;
+  min-height: 84px;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 20px max(24px, calc((100% - 1120px) / 2));
+  border-top: 1px solid rgb(255 255 255 / 12%);
+  background: var(--navy);
+  color: rgb(255 255 255 / 72%);
+  font-size: 0.875rem;
+}
+
+@media (max-width: 640px) {
+  footer {
+    flex-direction: column;
+    justify-content: center;
+    gap: 4px;
+    padding: 20px 16px;
+    text-align: center;
+  }
+}
