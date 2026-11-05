@@ -66,7 +66,9 @@
 }
 
 .page-about,
-.page-contact {
+.page-contact,
+.page-services,
+.page-careers {
   min-height: 320px;
 }
 

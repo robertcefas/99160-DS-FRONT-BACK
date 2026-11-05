@@ -1,0 +1,10 @@
+.page-careers {
+  border-top: 4px solid var(--orange);
+  background:
+    radial-gradient(ellipse at 100% 0%, rgb(245 130 32 / 8%), transparent 44%),
+    var(--surface);
+}
+
+.page-careers p {
+  max-width: 720px;
+}

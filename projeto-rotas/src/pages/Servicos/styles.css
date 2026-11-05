@@ -1,0 +1,10 @@
+.page-services {
+  border-top: 4px solid var(--navy-light);
+  background:
+    linear-gradient(135deg, rgb(23 54 95 / 4%), transparent 48%),
+    var(--surface);
+}
+
+.page-services p {
+  max-width: 720px;
+}

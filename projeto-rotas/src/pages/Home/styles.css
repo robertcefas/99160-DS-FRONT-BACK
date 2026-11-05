@@ -1,0 +1,25 @@
+.page-home {
+  position: relative;
+  overflow: hidden;
+}
+
+.page-home::after {
+  position: absolute;
+  right: -72px;
+  bottom: -110px;
+  width: 260px;
+  height: 260px;
+  border: 1px solid rgb(23 54 95 / 10%);
+  border-radius: 50%;
+  box-shadow:
+    0 0 0 24px rgb(23 54 95 / 3%),
+    0 0 0 48px rgb(23 54 95 / 2%);
+  content: "";
+  pointer-events: none;
+}
+
+.page-home h1,
+.page-home p {
+  position: relative;
+  z-index: 1;
+}

@@ -38,6 +38,8 @@ header nav {
   display: flex;
   align-items: center;
   gap: 10px;
+  flex-wrap: wrap;
+  justify-content: flex-end;
 }
 
 header nav a {
@@ -76,10 +78,11 @@ header nav a[aria-current="page"] {
 
   header nav {
     justify-content: center;
+    gap: 4px;
   }
 
   header nav a {
-    padding: 8px 10px;
-    font-size: 0.9rem;
+    padding: 8px;
+    font-size: 0.82rem;
   }
 }
