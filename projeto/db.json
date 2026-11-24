@@ -1,0 +1,34 @@
+{
+  "usuarios": [
+    {
+      "id": 1,
+      "nome": "Ana Souza",
+      "email": "ana.souza@example.com",
+      "telefone": "(00) 00000-0001"
+    },
+    {
+      "id": 2,
+      "nome": "Bruno Lima",
+      "email": "bruno.lima@example.com",
+      "telefone": "(00) 00000-0002"
+    },
+    {
+      "id": 3,
+      "nome": "Camila Rocha",
+      "email": "camila.rocha@example.com",
+      "telefone": "(00) 00000-0003"
+    },
+    {
+      "id": 4,
+      "nome": "Diego Martins",
+      "email": "diego.martins@example.com",
+      "telefone": "(00) 00000-0004"
+    },
+    {
+      "id": 5,
+      "nome": "Elisa Costa",
+      "email": "elisa.costa@example.com",
+      "telefone": "(00) 00000-0005"
+    }
+  ]
+}
